@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/black"
+    android:layout_margin="15dp"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/white"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/blue"
+        android:text="@string/ChildRegistration"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/childname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="15dp"
+        android:autofillHints="name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:hint="@string/ChildName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/childage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="15dp"
+        android:autofillHints="age"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:hint="@string/Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/childgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Gender"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:autofillHints="gender"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/childallergies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="15dp"
+        android:autofillHints="allergies"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:hint="@string/Allergies"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextGuardian_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:autofillHints="name"
+        android:hint="@string/GuardianName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Parent_Guardian_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:autofillHints="name"
+        android:hint="@string/EmergencyContact"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/buttonRegisterChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@color/blue"
+        android:textSize="25sp"
+        android:text="@string/RegisterChild" />
+
+</LinearLayout>

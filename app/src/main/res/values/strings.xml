@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">REGISTRATION</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="register">register</string>
+    <string name="Login">Login</string>
+    <string name="ResetPassword">Reset Password</string>
+    <string name="ChildName">Child Name</string>
+    <string name="Age">Age</string>
+    <string name="Gender">Gender</string>
+    <string name="Allergies">Allergies</string>
+    <string name="GuardianName">Guardian Name</string>
+    <string name="EmergencyContact">Emergency Contact</string>
+    <string name="RegisterChild">Register Child</string>
+    <string name="ChildRegistration">Child Registration</string>
+    <string name="Parent_Guardian_Registration">Parent/Guardian Registration</string>
+    <string name="Parent_Guardian_Names">Parent/Guardian Names</string>
+    <string name="Parent_Guardian_Email">Parent/Guardian Email</string>
+    <string name="Parent_Guardian_Phone">Parent/Guardian Phone</string>
+    <string name="Parent_Guardian_Password">Parent/Guardian Password</string>
+    <string name="get_registered_children">Registered Children</string>
+    <string name="already_have_an_account_login">Already have an Account, Login</string>
+    <string name="r">Register</string>
+
+
+</resources>
